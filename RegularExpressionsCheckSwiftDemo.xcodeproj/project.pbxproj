@@ -14,6 +14,8 @@
 		B34080981DDDB40400E1F090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34080961DDDB40400E1F090 /* LaunchScreen.storyboard */; };
 		B34080A31DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34080A21DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoTests.swift */; };
 		B34080AE1DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34080AD1DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoUITests.swift */; };
+		B34080BC1DDDB42100E1F090 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34080BB1DDDB42100E1F090 /* Util.swift */; };
+		B34080BE1DDDB43900E1F090 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34080BD1DDDB43900E1F090 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B34080A91DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularExpressionsCheckSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B34080AD1DDDB40400E1F090 /* RegularExpressionsCheckSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionsCheckSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		B34080AF1DDDB40400E1F090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34080BB1DDDB42100E1F090 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		B34080BD1DDDB43900E1F090 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B340808D1DDDB40400E1F090 /* AppDelegate.swift */,
 				B340808F1DDDB40400E1F090 /* ViewController.swift */,
+				B34080BB1DDDB42100E1F090 /* Util.swift */,
+				B34080BD1DDDB43900E1F090 /* Global.swift */,
 				B34080911DDDB40400E1F090 /* Main.storyboard */,
 				B34080941DDDB40400E1F090 /* Assets.xcassets */,
 				B34080961DDDB40400E1F090 /* LaunchScreen.storyboard */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34080BE1DDDB43900E1F090 /* Global.swift in Sources */,
 				B34080901DDDB40400E1F090 /* ViewController.swift in Sources */,
+				B34080BC1DDDB42100E1F090 /* Util.swift in Sources */,
 				B340808E1DDDB40400E1F090 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
